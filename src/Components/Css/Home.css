@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+body{
+ font-family: 'Roboto', sans-serif;
+}
+.hero {
+  width: 100%;
+  height: 80vh;
+  background: #e7e8e9;
+}
+.hero h6{
+  text-align: left;
+  font-weight: 300;
+}
+.Herocol-1 {
+  margin: auto;
+  margin-right: -3em;
+  
+}
+
+#medpic {
+  width: 100%;
+  margin: auto;
+  margin-top: 3em;
+}
+
+/* consultation segment*/
+.consult-seg-pic {
+  width: 95%;
+  margin: auto;
+}
+
+.consult-seg-box {
+  /* height:70vh; */
+  /* background:#135480; */
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.consult-seg-box h2 {
+  margin-bottom: 1.5em;
+  background: #135480;
+  padding: 5px;
+  color: #fff;
+  border-radius: 35px;
+}
+.consult-seg-box h5 {
+  color: #135480;
+}
+.consult-seg-box p {
+  margin-top: 1em;
+ 
+  font-size: 15px;
+  line-height: 1.2em;
+  /* text-align: left; */
+}
+
+
+/*Consult process section*/
+.Guide2consult {
+  width: 100%;
+  /* background: #f6f7face;  */
+  padding-top: 2em;
+  padding-bottom: 5em;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0, 0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19); */
+  padding: 0 40px 40px;
+  margin-bottom: 20px;
+}
+
+.Guide-col-each {
+  /* background:#135480;  */
+  margin: auto;
+  height: 58vh;
+  background: #f6f7face;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  padding: 1em;
+  padding-top: 1.5em;
+  line-height: 2em;
+  border-radius: 0 20px 0px 100px;
+}
+.Guide2consult h2 {
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+.Guide2consult h2 span {
+  color: #104977;
+  font-weight: 700;
+}
+.Guide2consult h5 {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.Guide2consult button {
+  margin-left: 6em;
+  margin-top: 1em;
+}
+
+.process-icon {
+  width: 20%;
+}
+.icon {
+  width: 12%;
+  height: 12%;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.custom-counter {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.custom-counter li {
+  counter-increment: step-counter;
+  margin-left: 10px;
+  font-weight: 200;
+}
+.custom-counter li::before {
+  content: counter(step-counter);
+  margin-right: 10px;
+  font-size: 80%;
+  background-color: rgb(58, 139, 206);
+  color: white;
+  font-weight: bold;
+  padding: 2px 7px;
+  border-radius: 11px;
+}
+
+/*MedEducate*/
+.med-edu-box {
+  /* background: linear-gradient(180deg, #6cb7e9, rgb(255, 255, 255)); */
+  /* height: 90vh; */
+  border-radius: 20px;
+}
+.med-edu-box h3 {
+  padding-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+#med-blog-pic {
+  background: linear-gradient(90deg, rgb(255, 255, 255), #6cb7e9);
+}
+
+.med-blog {
+  /* width: 55%; */
+  /* height: 65vh; */
+  margin-left: 25px;
+
+  /* background: #fffcfc; */
+  border-radius: 5px;
+}
+.med-blog p{
+  line-height: 1.3em;
+  text-align: left;
+  font-weight: 200;
+  font-family: 'Roboto';
+}
+
+/* MeetDoc session */
+.meetDoc {
+  padding: 1em 0 1em 0;
+  margin: auto;
+}
+.meetDoc-head{
+  padding: 1em;
+  border-bottom:1px solid #104977;
+}
+#styleDoc {
+  border-radius: 100%;
+  width: 80%;
+  /* height: 10em; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#styleDoc {
+  margin-bottom: 1em;
+}
+.EachDoc-style {
+  margin: auto;
+  gap: 2em;
+}
+.eachDoc{
+  margin:auto;
+  justify-content: center;
+}
+.eachDoc h5, p{
+ text-align: center;
+ margin-left: -2em;
+ padding-left: 0;
+ line-height: 15px;
+}
+.eachDoc p{
+  color:#135480;
+}
+
+
+/*welcome page */
+.welcpage p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 0.3em;
+  line-height: 1.5em;
+}
+.welcpage-text{
+  margin-left: 1em;
+}
+/* .welcpage h5 .btn {
+  color: #fff;
+  text-decoration: none;
+} */
+/*Footer*/
+.footer {
+  width: 100%;
+  padding-bottom: 3em;
+  /* height: 70vh; */
+  background: #104977;
+  /* border-radius: 100% 0% 0 0; */
+  margin-block-start: 1em;
+  color: #fff;
+}
+.footer-item {
+  margin: auto;
+  margin-top: 5em;
+  
+}
+.newsletter{
+  margin-left: 3em;
+  justify-content: left;
+}
+.copyright{
+  width: 100%;
+  background: #acaeb1;
+  height: 2em;
+  padding-top: 2px;
+  color: #000;
+}
+
+.footer ul li {
+  list-style-type: none;
+  line-height: 2.5em;
+}
+
+@media (max-width:768px){
+  .hero{
+    box-sizing: border-box;
+  }
+  .Herocol-1{
+    margin-left: 10px;
+    margin-top: 2em;
+    padding: 30px;
+  }
+  .Herocol-1 h1{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .med-blog p{
+    padding: 20px;
+  }
+  .med-blog-cont{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .med-blog img{
+  width: 100%;
+  }
+
+  .Doc-box{
+   margin-block-end: 1em;
+  }
+/* 
+  .footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  } */
+.newsletter{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+}

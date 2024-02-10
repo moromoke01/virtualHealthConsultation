@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+/*Login*/
+.loginBtn{
+  margin: auto;
+  margin-top: 1.3em;
+  margin-bottom: 1em;
+  margin-left: 5em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Welcome Page*/
+.welcpage{
+  /* background: linear-gradient(90deg,  #2b8ddd,#8ec5e9); */
+  margin-top: 4em;
+  padding: 1em 0 2em 0;
+}
+#stetoscope{
+  width: 100%;
+  
+}
+/* Login Page*/
+.EntryContainer{
+  padding-top: 2em;
+}
+.Form{
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0, 0,0.2) ,0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+#loginbox,#regbox{
+  padding: 2em;
+  line-height: 2em;
+}
+.form-styling{
+  margin-bottom: 2em;
+
+}
+#consult{
+ background: url('./Images/consult-min.jpg') no-repeat center center ;
+ background-size: cover;
+}
+#regconsult{
+  background: url('./Images/consult2.jpg') no-repeat center center ;
+  background-size: cover;
+}
+ p:first-child{
+ margin-top: 10px;
+}
+.belowlogin{
+  font-size: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Consulting Page */
+.consultingPage{
+  padding-bottom: 5em;
+  margin: auto;
+}
+.consultingPage h2,h4{
+  font-weight: 700;
+  padding: 5px 0 10px 0;
+}
+.ConsultingForm{
+  padding: 2em;
+  background: #fff;
+  border-radius: 1em;
+  line-height: 2em;
+  margin-left: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0,0, 0,0.2) ,0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+.picturespace{
+  background: url('./Images/doctor-consulting-software.png')no-repeat center center ;
+  background-size: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+Form.Group{
+  border: 10px solid #252525;
+}
+
+/*Overview page*/
+.overview{
+  background: url('./Images/stetoscope1.jpg') no-repeat center;
+  background-size:cover;
+  margin: auto;
+  height: 100vh;
+ margin-bottom: -2em;
+ padding-bottom: 5em;
+ padding: 2em;
+ position: relative;
+}
+.overview-display{
+  width:40%;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0, 0,0.2) ,0 6px 20px 0 rgba(0,0,0, 0.19);
+  padding:20px;
+  font-size: 20px;
+  line-height: 3em;
+  /* border: 2px solid #445fb8; */
+}
+.overview-buttons{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*Email form page */
+.emailForm{
+  width: 50%;
+  padding:1em;
+  margin-top: 1em;
+ 
+}
+.emailForm .Form{
+  background: #b8d0df;
+  border: 1px light #3c6b88;
+  border-radius:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.emailForm h5{
+  padding: 25px 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*getconsulterdata*/
+.DataCard{
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+.DataCard thead th{
+  text-align: center;
 }
