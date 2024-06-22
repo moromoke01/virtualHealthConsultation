@@ -58,6 +58,8 @@ const LoginForm = () => {
   
           // Redirect to the next page
           // history('/ConsultParent', { state: { id: email, userId } });
+        }else{
+          alert("Incorrect Username or password");
         }
       })
       .catch(e =>
