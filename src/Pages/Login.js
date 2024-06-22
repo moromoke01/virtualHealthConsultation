@@ -27,7 +27,7 @@ const LoginForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
   
-    fetch('http://localhost:5000/Login', {
+    fetch('https://medprompt-backend.vercel.app/Login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

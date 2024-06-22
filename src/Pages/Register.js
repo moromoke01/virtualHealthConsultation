@@ -41,7 +41,7 @@ const RegisterForm = () => {
       console.log("email:", FormData.email)
       console.log("password:", FormData.password)
 
-     const response = await fetch("http://localhost:5000/Register", {
+     const response = await fetch("https://medprompt-backend.vercel.app/Register", {
         method: "POST",
         crossDomain: true,
         headers: {

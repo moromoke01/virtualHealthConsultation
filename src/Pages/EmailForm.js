@@ -24,7 +24,7 @@ const handleChange = (e) =>{
 }
    const handleSubmit = (e) =>{
     e.preventDefault();
-    axios.post('http://localhost:5000/send-email', emailData)
+    axios.post('https://medprompt-backend.vercel.app/send-email', emailData)
     .then((response) =>{
         console.log(response.data);
        

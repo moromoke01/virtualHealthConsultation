@@ -18,7 +18,7 @@ const DataDisplay =(user)=>{
     const fetchData = async () =>{
         try{
             //make a GET request to the server endpoint for fetching data
-            const response = await axios.get('http://localhost:5000/getConsulterData');
+            const response = await axios.get('https://medprompt-backend.vercel.app/getConsulterData');
           
                
             //set the data received from the server to the state

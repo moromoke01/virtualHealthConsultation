@@ -15,7 +15,7 @@ const Overview = ()=> {
   const sendButton = async () => {
     try {
       // Send the FormData to the backend server
-      const response = await fetch('http://localhost:5000/ConsultingSection', {
+      const response = await fetch('https://medprompt-backend.vercel.app/ConsultingSection', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

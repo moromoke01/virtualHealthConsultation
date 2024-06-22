@@ -34,7 +34,7 @@ const ConsultingSection = () => {
     console.log("scheduleDate:",FormData.scheduleDate);
     console.log("scheduleTime:",FormData.scheduleTime);
 
-    const QuerySend = await fetch("http://localhost:5000/ConsultingSection", {
+    const QuerySend = await fetch("https://medprompt-backend.vercel.app/ConsultingSection", {
       method: "POST",
       crossDomain: true,
       headers: {
